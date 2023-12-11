@@ -4,10 +4,10 @@
     "slug": "PTCApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon2.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ptc.ptcapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c98fb993-db4d-483a-954f-851e4022599f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c98fb993-db4d-483a-954f-851e4022599f"
     }
   }
 }
